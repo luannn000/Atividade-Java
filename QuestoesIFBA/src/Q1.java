@@ -12,5 +12,7 @@ public class Q1 {
         salario = resposta * 20;
 
         System.out.println("O salário do operário será de R$" + salario);
+
+        teclado.close();
     }
 }

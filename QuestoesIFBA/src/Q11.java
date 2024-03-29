@@ -21,6 +21,8 @@ public class Q11 {
             resultado -= 7;
         }
 
-        System.out.println(String.format("Resultado: %d", resultado));
+        System.out.printf("Resultado: %d%n", resultado);
+
+        teclado.close();
     }
 }

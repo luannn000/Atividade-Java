@@ -11,6 +11,8 @@ public class Q8 {
 
         area = Math.PI * (respostaRaio * respostaRaio);
 
-        System.out.println(String.format("Área da circunferência: %.2f", area));
+        System.out.printf("Área da circunferência: %.2f%n", area);
+
+        teclado.close();
     }
 }

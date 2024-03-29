@@ -20,5 +20,7 @@ public class Q7 {
         } else {
             System.out.println("Essa pessoa não está obesa");
         }
+
+        teclado.close();
     }
 }

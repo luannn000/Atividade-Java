@@ -21,6 +21,8 @@ public class Q9 {
         salarioBruto = respostaValorHora * respostaHoraMes;
         salarioLiquido = salarioBruto - (salarioBruto * (respostaDesconto / 100));
 
-        System.out.println(String.format("O salário liquído é de R$%.2f", salarioLiquido));
+        System.out.printf("O salário liquído é de R$%.2f%n", salarioLiquido);
+
+        teclado.close();
     }
 }

@@ -13,5 +13,7 @@ public class Q3 {
         } else {
             System.out.println("Você não pode tirar carteira de motorista!");
         }
+
+        teclado.close();
     }
 }

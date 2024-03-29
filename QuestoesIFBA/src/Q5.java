@@ -13,11 +13,13 @@ public class Q5 {
         num2 = teclado.nextInt();
 
         if (num1 > num2) {
-            System.out.println(String.format("O número %d é maior", num1));
+            System.out.printf("O número %d é maior%n", num1);
         } else if (num2 > num1) {
-            System.out.println(String.format("O número %d é maior", num2));
+            System.out.printf("O número %d é maior%n", num2);
         } else {
             System.out.println("Os números são iguais");
         }
+
+        teclado.close();
     }
 }

@@ -14,11 +14,13 @@ public class Q10 {
 
         if (num1 + num2 > 10) {
             System.out.println("A soma dos dois valores é maior que 10");
-            System.out.println(String.format("Resultado: %d", num1 + num2));
+            System.out.printf("Resultado: %d%n", num1 + num2);
         } else if (num1 + num2 == 10) {
             System.out.println("A soma dos dois valores é igual 10");
         } else {
             System.out.println("A soma dos dois valores é menor que 10");
         }
+
+        teclado.close();
     }
 }

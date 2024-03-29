@@ -17,6 +17,8 @@ public class Q2 {
         gasolinaNecessaria = respostaDistancia / 12;
         preco = respostaPrecoGasolina * gasolinaNecessaria;
 
-        System.out.println(String.format("Você necessitará de %.2fL de gasolina, gastando assim R$%.2f", gasolinaNecessaria, preco));
+        System.out.printf("Você necessitará de %.2fL de gasolina, gastando assim R$%.2f%n", gasolinaNecessaria, preco);
+
+        teclado.close();
     }
 }

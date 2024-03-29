@@ -13,5 +13,7 @@ public class Q4 {
         } else {
             System.out.println("Sua temperatura está normal.");
         }
+
+        teclado.close();
     }
 }

@@ -24,5 +24,7 @@ public class Q6 {
         } else {
             System.out.println("Reprovado");
         }
+
+        teclado.close();
     }
 }
